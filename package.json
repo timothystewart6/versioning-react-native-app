@@ -1,0 +1,17 @@
+{
+  "name": "VersioningRN",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "preversion": "./npm-version/pre-version.sh",
+    "version": "./npm-version/version-ios.sh",
+    "postversion": "./npm-version/post-version.sh"
+  },
+  "dependencies": {
+    "react-native": "^0.21.0"
+  },
+  "devDependencies": {
+    "ezchangelog": "5.0.2"
+  }
+}
