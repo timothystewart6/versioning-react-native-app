@@ -9,7 +9,8 @@
     "postversion": "./npm-version/post-version.sh"
   },
   "dependencies": {
-    "react-native": "^0.21.0"
+    "react-native": "~0.38.0",
+    "react": "~15.4.0"
   },
   "devDependencies": {
     "ezchangelog": "5.0.2"
